@@ -21,17 +21,23 @@ sns.set()
 Revisa el siguiente codigo, familiarizate con las graficas de seaborn y que significa cada una. Pasa a la parte dos y contesta las preguntas.
 
 ### Objetivo
-Este script tiene como objetivo que te familiarices con los conceptos basicos de las graficas mas usadas, como leerlas e implementarlas en seaborn. Te recomiendo leer con detenimiento y jugar un poco con las opciones que te otorga seaborn.
+Este script tiene como objetivo que te familiarices con los conceptos basicos de las graficas mas usadas, como leerlas e implementarlas en seaborn. 
+Te recomiendo leer con detenimiento y jugar un poco con las opciones que te otorga seaborn.
 
 ### Indicaciones generales:
-Este notebook tiene como objetivo ensenarte algunos ejemplos de como graficar usando seaborn. A su vez presentamos una breve explicacion de cada tipo de grafica, y un link a su documentacion. Si desaeas ampliar tu conocimiento sobre este tipo de graficos te invitamos a revisar el link de teoria, y si deseas jugar con seaborn pasa a revisar la documentacion.
+Este notebook tiene como objetivo ensenarte algunos ejemplos de como graficar usando seaborn. 
+A su vez presentamos una breve explicacion de cada tipo de grafica, y un link a su documentacion. 
+Si desaeas ampliar tu conocimiento sobre este tipo de graficos te invitamos a revisar el link de teoria, y si deseas jugar con seaborn pasa a revisar la documentacion.
 
-A lo largo de las explicaciones puede que te encuentres con conceptos que aun no te son familiares como lo son los intervalos de confianza y distribuciones normales. No te preocupes, estos temas seran aclarados conforme avances en el curso o en la maestria.
+A lo largo de las explicaciones puede que te encuentres con conceptos que aun no te son familiares como lo son los intervalos de confianza y distribuciones normales. 
+No te preocupes, estos temas seran aclarados conforme avances en el curso o en la maestria.
 
 Nota: Los acentos fueron omitidos para evitar problemas de encoding o compatibilidad. Es una buena practica!
 
 ### Recomendaciones
-Cuando tengas dudas de como funciona una libreria te recomiendo ir a google y buscar su documentacion. En el caso de seaborn, su documentacion es bastante extensa y llena de ejemplos. Asi que cuando quieras buscar como hacer una nueva grafica o mejorar alguna existente te invito a buscar en la documentacion.
+Cuando tengas dudas de como funciona una libreria te recomiendo ir a google y buscar su documentacion.
+En el caso de seaborn, su documentacion es bastante extensa y llena de ejemplos. 
+Asi que cuando quieras buscar como hacer una nueva grafica o mejorar alguna existente te invito a buscar en la documentacion.
 
 ## Box-Plot:
 seaborn: 
@@ -195,7 +201,9 @@ https://seaborn.pydata.org/generated/seaborn.lineplot.html
 Teoria:
 https://en.wikipedia.org/wiki/Line_chart
 
-Puedes notar que las series de tiempo son un caso especial de lineplos, donde el eje x es el tiempo. Este tipo de graficas reciven un trato especial, pues el tiempo es una variable ampliamente utilizada en todo tipo de analisis, ademas de ser un componente escencial que determina el algoritmo que se puede utilizar, y mas propiedades estadisticas como autocorrelacion.
+Puedes notar que las series de tiempo son un caso especial de lineplos, donde el eje x es el tiempo. 
+Este tipo de graficas reciven un trato especial, pues el tiempo es una variable ampliamente utilizada en todo tipo de analisis,
+ademas de ser un componente escencial que determina el algoritmo que se puede utilizar, y mas propiedades estadisticas como autocorrelacion.
 
 ### Tips seaborn
 
@@ -239,7 +247,8 @@ En una primera fase te pasan los datos de dulceria. Tu primera tarea es evaluar 
 # Aumentemos el tamano de las graficas
 plt.rcParams['figure.figsize'] = [16, 6]
 
-"""La base de datos se carga automaticamente desde github. Si lo prefieres, puedes sustituir el paso que sigue con la lectura manual de los datos. Si estas en colab puedes leer archivos desde tu drive con el siguiente snippet.   
+"""La base de datos se carga automaticamente desde github. Si lo prefieres, puedes sustituir el paso que sigue con la lectura manual de los datos. 
+Si estas en colab puedes leer archivos desde tu drive con el siguiente snippet.   
 
 1 Te pedira que des click en un link  
 2 Confirma el acceso a tu cuenta de drive  
@@ -273,7 +282,9 @@ cines.head()
 ### 3 Existen anos que presenten anomalias?
 ### 4 Sugeririas revisar el proceso de extraccion de datos?
 
-Grafica los datos para asegurarte que estan completos!!! Si tienes duda de como hacerlo revisa los ejemplos anterirores o revisa la documentacion de seaborn. Recuerda que usamos para series de tiempo.
+Grafica los datos para asegurarte que estan completos!!!
+Si tienes duda de como hacerlo revisa los ejemplos anterirores o revisa la documentacion de seaborn. 
+Recuerda que usamos para series de tiempo.
 """
 
 ### TODO: Analiza la serie de tiempo de datos agregados
@@ -282,4 +293,5 @@ Grafica los datos para asegurarte que estan completos!!! Si tienes duda de como 
 
 cines.columns
 
-"""Fuentes: Las imagenes y descripciones fueron obtenidas de wikipedia, completadas, corregidas, y aumentadas por IEXE para adaptarlas a tus requerimeintos. El codigo esta basado en la documentacion de Seaborn."""
+"""Fuentes: Las imagenes y descripciones fueron obtenidas de wikipedia, completadas, corregidas, y aumentadas por IEXE para adaptarlas a tus requerimeintos. 
+El codigo esta basado en la documentacion de Seaborn."""
